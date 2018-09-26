@@ -8,9 +8,66 @@
     <artifactId>dubbo-parent</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <description>test dubbo</description>
+
+    <properties>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <java.version>1.7</java.version>
+        <main.basedir>${basedir}</main.basedir>
+        <spring-boot.version>1.5.6.RELEASE</spring-boot.version>
+        <spring-cloud.version>Dalston.SR2</spring-cloud.version>
+        <spring-boot-admin-client.version>1.3.4</spring-boot-admin-client.version>
+        <spring-boot-redis.version>1.4.7.RELEASE</spring-boot-redis.version>
+        <jetty.version>8.1.5.v20120716</jetty.version>
+        <swagger.version>2.2.2</swagger.version>
+        <!-- 依赖版本 -->
+        <mybatis.version>3.3.1</mybatis.version>
+        <mybatis.spring.version>1.2.4</mybatis.spring.version>
+        <mapper.version>3.3.6</mapper.version>
+        <pagehelper.version>4.1.1</pagehelper.version>
+        <httpclient.version>4.4.1</httpclient.version>
+        <disruptor.version>3.3.6</disruptor.version>
+        <druid.version>1.0.23</druid.version>
+        <guava.version>18.0</guava.version>
+        <mysql.version>5.1.37</mysql.version>
+        <commons-lang3.version>3.3.2</commons-lang3.version>
+        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <joda-time.version>2.1</joda-time.version>
+        <shiro.version>1.2.4</shiro.version>
+        <lombok.version>1.16.12</lombok.version>
+        <thymeleaf.version>3.0.0.RELEASE</thymeleaf.version>
+        <thymeleaf-layout-dialect.version>2.0.0</thymeleaf-layout-dialect.version>
+        <build-plugin.jacoco.version>0.7.7.201606060606</build-plugin.jacoco.version>
+        <build-plugin.coveralls.version>4.2.0</build-plugin.coveralls.version>
+        <build-plugin.gpg.version>1.6</build-plugin.gpg.version>
+        <build-plugin.asciidoctor.version>1.5.3</build-plugin.asciidoctor.version>
+        <build-plugin.exec.version>1.4.0</build-plugin.exec.version>
+        <build-plugin.git-commit-id.version>2.2.1</build-plugin.git-commit-id.version>
+    </properties>
+
     <modules>
         <module>dubbo-utils</module>
+        <module>dubbo-core</module>
+        <module>dubbo-rpc</module>
     </modules>
+    <!-- module 会直接继承 -->
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+    </dependencies>
 
-
+    <!-- module 不会直接继承 -->
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
