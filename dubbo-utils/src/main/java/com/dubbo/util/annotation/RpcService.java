@@ -6,8 +6,8 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @author: zhuzz
  * @description: pc注解类
+ * @author: zhuzz
  * @date: 2018/9/2719:10r
  */
 @Retention(RetentionPolicy.RUNTIME)
