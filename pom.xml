@@ -26,7 +26,7 @@
         <module>dubbo-utils</module>
         <module>dubbo-core</module>
         <module>dubbo-rpc</module>
-        <module>webapp</module>
+        <module>dubbo-webapp</module>
     </modules>
     <!-- module 会直接继承 -->
     <dependencies>
@@ -158,12 +158,6 @@
                 <groupId>com.caucho</groupId>
                 <artifactId>hessian</artifactId>
                 <version>4.0.38</version>
-            </dependency>
-
-            <dependency>
-                <groupId>net.sf.dozer</groupId>
-                <artifactId>dozer</artifactId>
-                <version>5.5.1</version>
             </dependency>
 
             <dependency>
