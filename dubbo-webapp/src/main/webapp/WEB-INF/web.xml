@@ -32,9 +32,22 @@
             </param-value>
         </init-param>
         <load-on-startup>1</load-on-startup>
+    <!-- for rpc -->
+    </servlet>
+    <servlet>
+        <servlet-name>rpcServer</servlet-name>
+        <servlet-class>com.caucho.hessian.server.HessianServlet</servlet-class>
+        <init-param>
+            <param-name>home-class</param-name>
+            <param-value>com.dubbo.rpc.server.HessianServiceDispather</param-value>
+        </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>springServlet</servlet-name>
         <url-pattern>/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>rpcServer</servlet-name>
+        <url-pattern>/rpc/*</url-pattern>
     </servlet-mapping>
 </web-app>
