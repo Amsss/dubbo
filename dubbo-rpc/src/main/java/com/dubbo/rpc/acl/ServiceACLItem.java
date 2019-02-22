@@ -3,8 +3,8 @@ package com.dubbo.rpc.acl;
 import org.springframework.util.StringUtils;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:15
  */
 public class ServiceACLItem {

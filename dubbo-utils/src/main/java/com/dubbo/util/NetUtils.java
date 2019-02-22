@@ -11,8 +11,8 @@ import java.util.Random;
 import java.util.regex.Pattern;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:57
  */
 public class NetUtils {

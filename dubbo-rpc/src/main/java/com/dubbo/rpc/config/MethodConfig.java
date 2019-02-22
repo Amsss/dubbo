@@ -8,8 +8,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/415:45
  */
 public class MethodConfig implements Config {

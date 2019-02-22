@@ -3,8 +3,8 @@ package com.dubbo.util;
 import org.apache.commons.lang3.StringUtils;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:40
  */
 public class S extends StringUtils {

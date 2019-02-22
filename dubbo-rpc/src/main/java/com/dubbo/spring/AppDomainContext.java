@@ -16,8 +16,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/9/2723:05
  */
 public class AppDomainContext extends AppContextHolder implements ApplicationListener<ContextRefreshedEvent>, DisposableBean {

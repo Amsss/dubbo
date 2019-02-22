@@ -3,8 +3,8 @@ package com.dubbo.rpc.monitor;
 import java.util.Date;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:19
  */
 public class InvokeStatLog implements InvokeLog {

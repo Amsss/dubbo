@@ -3,8 +3,8 @@ package com.dubbo.util.message;
 import java.io.Serializable;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:01
  */
 public class MessageCenter {

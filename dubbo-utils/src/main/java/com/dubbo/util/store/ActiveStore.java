@@ -6,8 +6,8 @@ import com.dubbo.util.store.listener.StateListener;
 import java.util.List;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:30
  */
 public interface ActiveStore {

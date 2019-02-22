@@ -6,8 +6,8 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:35
  */
 public class RandomBalance implements Balance {

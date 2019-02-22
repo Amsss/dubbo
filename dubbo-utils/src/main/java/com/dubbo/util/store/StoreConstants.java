@@ -1,8 +1,8 @@
 package com.dubbo.util.store;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/415:53
  */
 public class StoreConstants {

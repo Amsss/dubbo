@@ -32,8 +32,8 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author: zhuzz
  * @description: 描述
+ * @author: zhuzz
  * @date: 2018/10/4 15:46
  */
 public class ServiceRegistry implements StateListener, Runnable {

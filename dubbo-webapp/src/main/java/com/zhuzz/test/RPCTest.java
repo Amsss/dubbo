@@ -1,13 +1,11 @@
 package com.zhuzz.test;
 
-
 import com.dubbo.util.annotation.RpcService;
 
 /**
- * @Author: ZhuZeZhao
- * @Description:
- * @Date: Create in 15:21 2018/9/24
- * @Modified By:
+ * @description: rpc服务类
+ * @author: zhuzz
+ * @date: 2019/1/8 16:17
  */
 public class RPCTest {
     @RpcService

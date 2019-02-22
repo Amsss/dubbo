@@ -1,8 +1,8 @@
 package com.dubbo.rpc;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:32
  */
 public interface ServiceDispatcher {

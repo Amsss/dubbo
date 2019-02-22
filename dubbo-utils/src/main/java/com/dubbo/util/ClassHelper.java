@@ -4,8 +4,8 @@ import java.lang.reflect.Array;
 import java.util.*;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:24
  */
 public class ClassHelper {

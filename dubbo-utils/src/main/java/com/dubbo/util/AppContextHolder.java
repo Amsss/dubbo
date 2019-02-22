@@ -17,8 +17,8 @@ import java.util.TimeZone;
 import java.util.concurrent.CountDownLatch;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:36
  */
 public class AppContextHolder implements ApplicationContextAware {

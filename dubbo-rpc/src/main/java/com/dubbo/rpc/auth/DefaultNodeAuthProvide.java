@@ -8,8 +8,8 @@ import com.dubbo.util.store.StoreConstants;
 import java.util.HashMap;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:03
  */
 public class DefaultNodeAuthProvide implements NodeAuthProvide {

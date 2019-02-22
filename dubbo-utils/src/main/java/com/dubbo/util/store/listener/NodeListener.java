@@ -1,8 +1,8 @@
 package com.dubbo.util.store.listener;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:32
  */
 public class NodeListener {

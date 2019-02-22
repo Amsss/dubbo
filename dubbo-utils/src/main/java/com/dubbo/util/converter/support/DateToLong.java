@@ -4,11 +4,16 @@ import org.springframework.core.convert.converter.Converter;
 
 import java.util.Date;
 
-public class DateToLong implements Converter<Date,Long> {
+/**
+ * @description:
+ * @author: zhuzz
+ * @date: 2019/1/8 16:12
+ */
+public class DateToLong implements Converter<Date, Long> {
 
-	@Override
-	public Long convert(Date source) {
-		return source.getTime();
-	}
+    @Override
+    public Long convert(Date source) {
+        return source.getTime();
+    }
 
 }

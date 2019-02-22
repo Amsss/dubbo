@@ -3,8 +3,8 @@ package com.dubbo.spring.parse;
 import org.springframework.beans.factory.xml.NamespaceHandlerSupport;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/9/2719:44
  */
 public class NamespaceHandler extends NamespaceHandlerSupport {

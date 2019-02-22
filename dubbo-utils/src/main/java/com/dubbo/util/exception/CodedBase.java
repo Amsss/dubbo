@@ -1,8 +1,8 @@
 package com.dubbo.util.exception;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/415:57
  */
 public interface CodedBase {

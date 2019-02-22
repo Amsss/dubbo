@@ -27,6 +27,7 @@
         <module>dubbo-core</module>
         <module>dubbo-rpc</module>
         <module>dubbo-webapp</module>
+        <module>dubbo-clinet</module>
     </modules>
     <!-- module 会直接继承 -->
     <dependencies>

@@ -5,8 +5,8 @@ import com.dubbo.rpc.config.ProviderUrlConfig;
 import java.util.List;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:34
  */
 public interface Balance {

@@ -26,8 +26,8 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:46
  */
 public class ZooKeeperActiveStore  implements ActiveStore, Watcher {

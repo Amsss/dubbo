@@ -3,8 +3,8 @@ package com.dubbo.util.store;
 import com.dubbo.util.exception.CodedBaseException;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:11
  */
 public class StoreException extends CodedBaseException {

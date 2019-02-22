@@ -3,8 +3,8 @@ package com.dubbo.rpc.registry;
 import com.dubbo.rpc.config.ProviderUrlConfig;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:34
  */
 public class ConnectFailedProviderUrlHolder {

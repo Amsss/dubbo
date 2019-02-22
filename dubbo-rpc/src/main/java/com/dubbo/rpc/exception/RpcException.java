@@ -3,8 +3,8 @@ package com.dubbo.rpc.exception;
 import com.dubbo.util.exception.CodedBaseException;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/415:47
  */
 public class RpcException extends CodedBaseException {

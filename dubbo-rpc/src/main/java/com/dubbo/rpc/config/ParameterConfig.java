@@ -3,8 +3,8 @@ package com.dubbo.rpc.config;
 import com.dubbo.util.ReflectUtil;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/415:45
  */
 public class ParameterConfig implements Config {

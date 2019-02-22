@@ -6,8 +6,8 @@ import com.dubbo.util.acl.ACListType;
 import java.util.List;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/416:15
  */
 public class ServiceACL {

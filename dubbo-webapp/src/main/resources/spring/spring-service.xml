@@ -6,9 +6,9 @@
 	http://www.dubbo.com.cn/schema/dubbo
 	http://www.dubbo.com.cn/schema/dubbo/dubbo.xsd">
 
-    <ssdev:applicationDomain name="adapter"
+    <ssdev:applicationDomain name="dubbo"
                              registryAddress="zookeeper://127.0.0.1:2181"
-                             rpcServerWorkUrl="hessian://localhost:8223/adapter-forward/rpc/"/>
+                             rpcServerWorkUrl="hessian://localhost:8223/dubbo/rpc/"/>
 
     <ssdev:service ref="rpcCallService"/>
     <bean id="rpcCallService" class="com.zhuzz.test.RPCTest"/>

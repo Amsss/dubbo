@@ -3,8 +3,8 @@ package com.dubbo.rpc.auth;
 import com.dubbo.util.annotation.RpcService;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:03
  */
 public interface NodeAuthProvide {

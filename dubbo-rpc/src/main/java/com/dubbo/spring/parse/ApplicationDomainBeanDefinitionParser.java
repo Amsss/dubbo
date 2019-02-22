@@ -11,8 +11,8 @@ import org.w3c.dom.Element;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/9/2720:22
  */
 public class ApplicationDomainBeanDefinitionParser implements BeanDefinitionParser {

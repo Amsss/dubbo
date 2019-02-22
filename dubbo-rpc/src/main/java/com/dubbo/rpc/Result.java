@@ -3,8 +3,8 @@ package com.dubbo.rpc;
 import java.io.Serializable;
 
 /**
- * @author: zhuzz
  * @description:
+ * @author: zhuzz
  * @date: 2018/10/417:32
  */
 public class Result implements Serializable {
